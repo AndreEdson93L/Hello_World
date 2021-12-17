@@ -1,0 +1,16 @@
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\Dynamic.exe
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\Dynamic.deps.json
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\Dynamic.runtimeconfig.json
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\Dynamic.runtimeconfig.dev.json
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\Dynamic.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\ref\Dynamic.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\bin\Debug\net5.0\Dynamic.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.AssemblyInfoInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.AssemblyInfo.cs
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\ref\Dynamic.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\Dynamic\obj\Debug\net5.0\Dynamic.genruntimeconfig.cache
