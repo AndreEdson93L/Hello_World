@@ -1,0 +1,16 @@
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\Extensibility.exe
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\Extensibility.deps.json
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\Extensibility.runtimeconfig.json
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\Extensibility.runtimeconfig.dev.json
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\Extensibility.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\ref\Extensibility.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\bin\Debug\net5.0\Extensibility.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.AssemblyInfoInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.AssemblyInfo.cs
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\ref\Extensibility.dll
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\Extensibility\obj\Debug\net5.0\Extensibility.genruntimeconfig.cache
