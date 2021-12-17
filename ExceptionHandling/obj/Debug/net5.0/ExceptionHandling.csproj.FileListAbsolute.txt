@@ -1,0 +1,16 @@
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.exe
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.deps.json
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.runtimeconfig.json
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.runtimeconfig.dev.json
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.dll
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ref\ExceptionHandling.dll
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.AssemblyInfo.cs
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.dll
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ref\ExceptionHandling.dll
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.genruntimeconfig.cache
