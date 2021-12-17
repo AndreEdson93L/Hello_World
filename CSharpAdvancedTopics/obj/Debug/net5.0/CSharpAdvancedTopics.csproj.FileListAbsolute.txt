@@ -1,0 +1,16 @@
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\CSharpAdvancedTopics.exe
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\CSharpAdvancedTopics.deps.json
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\CSharpAdvancedTopics.runtimeconfig.json
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\CSharpAdvancedTopics.runtimeconfig.dev.json
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\CSharpAdvancedTopics.dll
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\ref\CSharpAdvancedTopics.dll
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\bin\Debug\net5.0\CSharpAdvancedTopics.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.AssemblyInfoInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.AssemblyInfo.cs
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.dll
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\ref\CSharpAdvancedTopics.dll
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.pdb
+C:\Users\Computer\Desktop\HandsOn\C#\CSharpAdvancedTopics\obj\Debug\net5.0\CSharpAdvancedTopics.genruntimeconfig.cache
