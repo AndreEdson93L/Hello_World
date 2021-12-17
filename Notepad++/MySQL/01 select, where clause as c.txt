@@ -1,0 +1,10 @@
+SELECT *
+FROM customer
+WHERE birth_date >= '2019-01-01' and birth_date <= '2019-12-31';
+
+SELECT 
+	name,
+	second_name,
+	points,
+	points * 1.1 AS 'discount factor'
+FROM customers;

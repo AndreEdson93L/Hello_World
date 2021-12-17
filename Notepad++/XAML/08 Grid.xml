@@ -1,0 +1,30 @@
+<!-- auto si restringe in base allo spazio reale. In questo caso scompare/collassa -->
+<!-- pero aggiungendo un bottone che va a occupare la colonna gestista con auto, <ColumnDefinition Width = "auto"/> si adatterà in base al Width-->
+<!-- l' algoritmo va in ordine, da sinistra verso destra. -->
+<!-- il sistema delle coordinate ci permette di specificare riga e colonna, Grid.Column ="2" Grid.Row="1" -->
+<Grid>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width = "1*"/>
+		<ColumnDefinition Width = "2*"/>
+		<ColumnDefinition Width = "auto"/>
+	</Grid.ColumnDefinitions>
+	<Grid.RowDefinitions>
+		<RowDefinition Heoght = "106*"/>
+		<RowDefinition Heoght = "106"/>
+		<RowDefinition Heoght = "107"/>
+	</Grid.RowDefinitions>
+	<Button Content="Button" Grid.Column ="2" Grid.Row="1" = Width="75"/>
+</Grid>
+
+<StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="8">
+            <TextBlock Text="Cognome"/>
+            <ComboBox x:Name="cmbPersone" x:FieldModifier="private" Width="120" Margin="8,0"/>
+
+            <Button Click="Button_Click">Salutami</Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="8">
+            <TextBox x:Name="txtSaluto" Width="120" x:FieldModifier="private"/>
+        </StackPanel>
+</StackPanel>

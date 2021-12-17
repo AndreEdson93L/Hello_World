@@ -1,0 +1,80 @@
+-- query1
+select *
+from store.customers
+where last_name LIKE 'b%'
+
+-- query2
+select *
+from store.customers
+where last_name like 'brush%'
+
+-- query3
+select *
+from store.customers
+where last_name like '%b%'
+
+-- query4
+select *
+from store.customers
+where last_name like '%y'
+
+-- query5
+select *
+from store.customers
+where last_name like '_____y'
+
+-- query6
+select *
+from store.customers
+where phone like '%9'
+
+-- query7
+-- Get the customers whose
+-- addresses contain TRAIL or AVENUE
+-- phone numbers end with 9
+
+select *
+from store.customers
+where address like '%trail%' or 
+	  address like '%avenue%'
+
+-- query8
+select *
+from store.customers
+where last_name like 'b____y'
+-- % any number of characters
+-- _ single character
+
+-- query9
+
+-- data/range             |total_sales | total_payments | what_we_expect |
+-- firs half of 2019      |1539.07     | 662.69         | 876.38         |
+-- second half of 2019    |1051.53     | 355.02         | 696.51         |
+-- Total                  |2590.60     | 1017.71        | 1572.89        |
+
+select 
+	'First half of 2019' as data_range,
+    sum(invoice_total) as total_sales,
+    sum(payment_total) as total_payments,
+    sum(invoice_total - payment_total) as what_we_expect
+from invoices
+where invoice_date 
+	between '2019-01-01' and '2019-06-30'
+union
+select 
+	'Second half of 2019' as data_range,
+    sum(invoice_total) as total_sales,
+    sum(payment_total) as total_payments,
+    sum(invoice_total - payment_total) as what_we_expect
+from invoices
+where invoice_date 
+	between '2019-07-01' and '2019-12-31'
+union
+select 
+	'Total' as data_range,
+    sum(invoice_total) as total_sales,
+    sum(payment_total) as total_payments,
+    sum(invoice_total - payment_total) as what_we_expect
+from invoices
+where invoice_date 
+	between '2019-01-01' and '2019-12-31'

@@ -1,0 +1,6 @@
+<DockPanel>
+	<Button DockPanel.Dock="Left" Height="50">Left</Button>
+	<Button DockPanel.Dock="Top" Width="50">Top</Button>
+	<Button DockPanel.Dock="Right" Height="50">Right</Button>
+	<Button DockPanel.Dock="Bottom" Width="50">Bottom</Button>
+</DockPanel>

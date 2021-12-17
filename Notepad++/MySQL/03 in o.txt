@@ -1,0 +1,16 @@
+#Query 1
+SELECT * 
+FROM customers
+WHERE state = 'VA' OR state = 'GA' OR state = 'FL';
+
+#Query 2
+SELECT *
+FROM customers
+WHERE state NOT IN ('VA', 'FL', 'GA');
+
+#Query 3
+-- Retrun products with
+-- quantity in stock equal to 49, 38, 72
+SELECT * 
+FROM products
+WHERE quantity_in_stock IN (38, 49, 72);

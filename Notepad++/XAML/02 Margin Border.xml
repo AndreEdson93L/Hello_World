@@ -1,0 +1,13 @@
+ <!--<Border Padding="20"></Border>-->
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="8">
+            <TextBlock Text="Nome" Margin="8, 0"/>
+            <TextBox x:Name="txtNome" Width="120"/>
+            
+            <TextBlock Text="Cognome" Margin="8, 0"/>
+            <TextBox x:Name="txtCognome"  Width="120"/>
+
+            <Button Click="Button_Click" Content="Salutami" Margin="8, 0"/>
+            <TextBox x:Name="txtSaluto" Width="120" x:FieldModifier="private"/>
+        </StackPanel>
+    </StackPanel>

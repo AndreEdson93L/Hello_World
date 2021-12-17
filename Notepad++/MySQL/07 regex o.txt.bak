@@ -1,0 +1,47 @@
+#query1
+SELECT * 
+FROM store.customers
+WHERE last_name LIKE '%field%'
+
+#query2
+select *
+from store.customers
+where last_name regexp 'field'
+-- '^field' search start of the string
+-- 'field$' searchend of the string
+-- 'field|mac'  search multiple fields
+-- '^field|mac' combine
+-- 'fiel$|mac|rose'
+
+#query3
+select *
+from store.customers
+where last_name regexp '^field'
+
+#query4
+select *
+from store.customers
+where last_name regexp 'field$'
+
+#query5
+select *
+from store.customers
+where last_name regexp '^field|mac|rose'
+
+#query6
+select *
+from store.customers
+where last_name regexp 'field$|mac|rose'
+
+#query7
+select *
+from store.customers
+where last_name regexp 'field|mac|rose'
+
+#query8
+#query9
+#query10
+#query11
+#query12
+#query13
+#query14

@@ -1,0 +1,17 @@
+#query1
+SELECT *
+FROM customers
+WHERE points >= 1000 AND points <= 3000
+
+#query2
+SELECT * 
+FROM store.customers
+WHERE points BETWEEN 1000 AND 3000
+
+#query3
+-- Return customers born
+--					between 1/1/1990 and 1/1/2000
+
+select *
+from store.customers
+where birth_date between '1990-01-01' and '2000-01-01'

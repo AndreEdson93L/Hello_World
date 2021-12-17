@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<languages>
+
+<!--Settings for scintilla-based code editors in MySQL Workbench.For a list of possible style identifiers see the SciLexer.h file.Keyword list identifiers are taken from the various Lex*.cpp files in Scintilla. -->
+
+
+
+-<language name="SCLEX_MYSQL">
+
+<!-- This is the base language setting. It's usually not directly used, but provides values shared bymore specialized MySQL versions. -->
+
+
+<!-- Lexer properties -->
+
+
+<property name="fold" value="1"/>
+
+<property name="fold.compact" value="0"/>
+
+<property name="fold.comment" value="1"/>
+
+<!-- Editor settings -->
+
+
+<setting name="usetabs" value="1"/>
+
+<setting name="tabwidth" value="4"/>
+
+<setting name="indentation" value="4"/>
+
+<!-- Keep in mind to use the same list names as defined in the lexers (e.g. LexMySQL.cpp). -->
+
+
+
+-<keywords name="Major Keywords">
+
+<!-- Keywords that can start a statement. No longer used. -->
+
+
+</keywords>
+
+
+-<keywords name="Keywords">
+
+<!-- Normal keywords. No longer kept here but come from the keywords_list.h file provided by the server itself. -->
+
+
+</keywords>
+
+<keywords name="Procedure keywords">begin end comment </keywords>
+
+<keywords name="User Keywords 1">delimiter </keywords>
+
+<!-- These two lists are not used for syntax highlighting but assemble keywords from the other lists that serve a special purpose. -->
+
+
+
+-<keywords name="User Keywords 2">
+
+<!-- Keywords that are allowed at the start of an expression. -->
+
+binary case cast convert exists interval match not row 
+</keywords>
+
+
+-<keywords name="User Keywords 3">
+
+<!-- Like user 2 but those that can appear between two expressions. -->
+
+all and any as between escape false in is like or regexp sounds true unknown xor 
+</keywords>
+
+<style fore-color-dark="#808a8c" fore-color-light="#284444" id="0"/>
+
+<!-- SCE_MYSQL_DEFAULT -->
+
+
+<style fore-color-dark="#0a99e5" fore-color-light="#0987cb" id="1"/>
+
+<!-- SCE_MYSQL_COMMENT -->
+
+
+<style fore-color-dark="#0a99e5" fore-color-light="#0987cb" id="2"/>
+
+<!-- SCE_MYSQL_COMMENTLINE -->
+
+
+<style id="21" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_HIDDENCOMMAND -->
+
+
+<style fore-color-dark="#63bf8d" fore-color-light="#63bf8d" id="3"/>
+
+<!-- SCE_MYSQL_VARIABLE -->
+
+
+<style fore-color-dark="#45aa73" fore-color-light="#45aa73" id="4"/>
+
+<!-- SCE_MYSQL_SYSTEMVARIABLE -->
+
+
+<style fore-color-dark="#45aa73" fore-color-light="#45aa73" id="5"/>
+
+<!-- SCE_MYSQL_KNOWNSYSTEMVARIABLE -->
+
+
+<style fore-color-dark="#e57a00" fore-color-light="#cc6c00" id="6"/>
+
+<!-- SCE_MYSQL_NUMBER -->
+
+
+<style fore-color-dark="#f28600" fore-color-light="#dd7a00" id="12"/>
+
+<!-- SCE_MYSQL_SQSTRING -->
+
+
+<style fore-color-dark="#f28600" fore-color-light="#dd7a00" id="13"/>
+
+<!-- SCE_MYSQL_DQSTRING -->
+
+
+<style fore-color-light="#007FBF" id="7" bold="Yes"/>
+
+<!-- SCE_MYSQL_MAJORKEYWORD -->
+
+
+<style fore-color-light="#007FBF" id="8" bold="Yes"/>
+
+<!-- SCE_MYSQL_KEYWORD -->
+
+
+<style fore-color-dark="#7db27d" fore-color-light="#7d7d63" id="15"/>
+
+<!-- SCE_MYSQL_FUNCTION -->
+
+
+<style fore-color-dark="#7db27d" fore-color-light="#7d7d63" id="10"/>
+
+<!-- SCE_MYSQL_PROCEDUREKEYWORD -->
+
+
+<style id="14" bold="Yes"/>
+
+<!-- SCE_MYSQL_OPERATOR -->
+
+
+<style fore-color-dark="#FFFFFF" fore-color-light="#000000" id="16"/>
+
+<!-- SCE_MYSQL_IDENTIFIER -->
+
+
+<style fore-color-dark="#e5454c" fore-color-light="#993a3e" id="17"/>
+
+<!-- SCE_MYSQL_QUOTEDIDENTIFIER -->
+
+
+<style fore-color-dark="#000000" fore-color-light="#FFFFFF" id="22" back-color-dark="#404040" back-color-light="#A0A0A0" bold="Yes"/>
+
+<!-- SCE_MYSQL_PLACEHOLDER -->
+
+
+<style fore-color-dark="#00b200" fore-color-light="#007F00" id="18" bold="yes"/>
+
+<!-- SCE_MYSQL_USER1 -->
+
+
+<!-- All styles again in their variant in a hidden command (with a 0x40 offset). -->
+
+
+<style fore-color-dark="#0a99e5" fore-color-light="#0987cb" id="65" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_COMMENT -->
+
+
+<style fore-color-dark="#0a99e5" fore-color-light="#0987cb" id="66" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_COMMENTLINE -->
+
+
+<style fore-color-dark="#63bf8d" fore-color-light="#63bf8d" id="67" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_VARIABLE -->
+
+
+<style fore-color-dark="#45aa73" fore-color-light="#45aa73" id="68" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_SYSTEMVARIABLE -->
+
+
+<style fore-color-dark="#45aa73" fore-color-light="#45aa73" id="69" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_KNOWNSYSTEMVARIABLE -->
+
+
+<style fore-color-dark="#e57a00" fore-color-light="#cc6c00" id="70" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_NUMBER -->
+
+
+<style fore-color-dark="#f28600" fore-color-light="#dd7a00" id="76" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_SQSTRING -->
+
+
+<style fore-color-dark="#f28600" fore-color-light="#dd7a00" id="77" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_DQSTRING -->
+
+
+<style id="71" back-color-dark="#404040" back-color-light="#F0F0F0" bold="Yes"/>
+
+<!-- SCE_MYSQL_MAJORKEYWORD -->
+
+
+<style id="72" back-color-dark="#404040" back-color-light="#F0F0F0" bold="Yes"/>
+
+<!-- SCE_MYSQL_KEYWORD -->
+
+
+<style fore-color-dark="#7db27d" fore-color-light="#7d7d63" id="79" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_FUNCTION -->
+
+
+<style fore-color-dark="#7db27d" fore-color-light="#7d7d63" id="74" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_PROCEDUREKEYWORD -->
+
+
+<style id="78" back-color-dark="#284444" back-color-light="#F0F0F0" bold="Yes"/>
+
+<!-- SCE_MYSQL_OPERATOR -->
+
+
+<style fore-color-dark="#FFFFFF" fore-color-light="#000000" id="80" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_IDENTIFIER -->
+
+
+<style fore-color-dark="#e5454c" fore-color-light="#993a3e" id="81" back-color-dark="#404040" back-color-light="#F0F0F0"/>
+
+<!-- SCE_MYSQL_QUOTEDIDENTIFIER -->
+
+
+<style fore-color-dark="#284444" fore-color-light="#FFFFFF" id="86" back-color-dark="#404040" back-color-light="#A0A0A0" bold="Yes"/>
+
+<!-- SCE_MYSQL_PLACEHOLDER -->
+
+
+<style fore-color-dark="#00b200" fore-color-light="#007F00" id="82" back-color-dark="#404040" back-color-light="#F0F0F0" bold="yes"/>
+
+<!-- SCE_MYSQL_USER1 -->
+
+
+<!-- Various other styles -->
+
+
+<style id="34" back-color-dark="#ffee55" back-color-light="#ffee55"/>
+
+<!-- STYLE_BRACELIGHT -->
+
+
+<style id="35" back-color-dark="#ff7855" back-color-light="#ff7855"/>
+
+<!-- STYLE_BRACELBAD -->
+
+
+</language>
+
+
+-<language name="SCLEX_MYSQL_56">
+
+<keywords name="Major Keywords"> </keywords>
+
+<keywords name="Keywords"> </keywords>
+
+</language>
+
+<!-- SCLEX_MYSQL_56 -->
+
+
+
+-<language name="SCLEX_MYSQL_57">
+
+<keywords name="Major Keywords"> </keywords>
+
+<keywords name="Keywords"> </keywords>
+
+</language>
+
+<!-- SCLEX_MYSQL_57 -->
+
+
+
+-<language name="SCLEX_MYSQL_80">
+
+<keywords name="Major Keywords"> </keywords>
+
+<keywords name="Keywords"> </keywords>
+
+</language>
+
+<!-- SCLEX_MYSQL_80 -->
+
+
+
+-<language name="SCLEX_PYTHON">
+
+<property name="tab.timmy.whinge.level" value="1"/>
+
+<!-- Editor settings -->
+
+
+<setting name="usetabs" value="0"/>
+
+<setting name="tabwidth" value="4"/>
+
+<setting name="indentation" value="4"/>
+
+<!-- Keywords from http://docs.python.org/release/2.3.5/ref/keywords.html -->
+
+
+<keywords name="Keywords">and del for is raiseassert elif from lambda returnbreak else global not tryclass except if or whilecontinue exec import pass yielddef finally in printas none </keywords>
+
+<style fore-color-dark="#808a8c" fore-color-light="#000000" id="0"/>
+
+<!-- SCE_P_DEFAULT -->
+
+
+<style fore-color-light="#097BF7" id="12"/>
+
+<!-- SCE_P_COMMENTBLOCK -->
+
+
+<style fore-color-light="#097BF7" id="1"/>
+
+<!-- SCE_P_COMMENTLINE -->
+
+
+<style fore-color-dark="#736ca3" fore-color-light="#3EAAFF" id="2"/>
+
+<!-- SCE_P_NUMBER -->
+
+
+<style fore-color-dark="#ffff3f" fore-color-light="#3EAAFF" id="3"/>
+
+<!-- SCE_P_STRING -->
+
+
+<style fore-color-light="#3EAAFF" id="4"/>
+
+<!-- SCE_P_CHARACTER -->
+
+
+<style fore-color-light="#3EAAFF" id="6"/>
+
+<!-- SCE_P_TRIPLE -->
+
+
+<style fore-color-light="#6D4A27" id="7"/>
+
+<!-- SCE_P_TRIPLEDOUBLE -->
+
+
+<style fore-color-dark="#a46f3f" fore-color-light="#C00000" id="5" bold="Yes"/>
+
+<!-- SCE_P_WORD -->
+
+
+<style fore-color-dark="#a0d975" fore-color-light="#003690" id="8" bold="Yes"/>
+
+<!-- SCE_P_CLASSNAME -->
+
+
+<style fore-color-dark="#a0d975" fore-color-light="#7F0000" id="9" bold="Yes"/>
+
+<!-- SCE_P_DEFNAME -->
+
+
+<style fore-color-dark="#a46f3f" fore-color-light="#000000" id="10" bold="Yes"/>
+
+<!-- SCE_P_OPERATOR -->
+
+
+<style fore-color-dark="#FFFFFF" fore-color-light="#000000" id="11"/>
+
+<!-- SCE_P_IDENTIFIER -->
+
+
+<!-- Various other styles -->
+
+
+<style id="34" back-color-dark="#ffee55" back-color-light="#ffee55"/>
+
+<!-- STYLE_BRACELIGHT -->
+
+
+<style id="35" back-color-dark="#ff7855" back-color-light="#ff7855"/>
+
+<!-- STYLE_BRACELBAD -->
+
+
+</language>
+
+
+-<language name="SCLEX_HTML">
+
+<!-- This is a complex lexer with several sublanguages (html, xml, java script, php script, vb sript, python)-->
+
+
+<setting name="usetabs" value="0"/>
+
+<setting name="tabwidth" value="4"/>
+
+<setting name="indentation" value="4"/>
+
+<keywords name="HTML elements and attributes">!doctype a abbr accept-charset accept accesskey acronym action address align alink alt applet archive area axisb background base basefont bdo bgcolor big blockquote body border br button caption cellpadding cellspacing centerchar charoff charset checkbox checked cite class classid clear code codebase codetype col colgroup color cols colspancompact content coords data datafld dataformatas datapagesize datasrc datetime dd declare defer del dfn dir disableddiv dl dt em enctype event face fieldset file font for form frame frameborder frameset h1 h2 h3 h4 h5 h6 head headersheight hidden hr href hreflang hspace html http-equiv i id iframe image img input ins isindex ismap kbd label langlanguage leftmargin legend li link longdesc map marginwidth marginheight maxlength media menu meta method multiplename noframes nohref noresize noscript noshade nowrap object ol onblur onchange onclick ondblclick onfocus onkeydownonkeypress onkeyup onload onmousedown onmousemove onmouseover onmouseout onmouseup optgroup option onreset onselectonsubmit onunload p param password profile pre prompt public q radio readonly rel reset rev rows rowspan rules s sampscheme scope script select selected shape size small span src standby start strike strong style sub submit summary suptabindex table target tbody td text textarea tfoot th thead title topmargin tr tt type u ul usemap valign value valuetypevar version vlink vspace width xml xmlns </keywords>
+
+<keywords name="JavaScript keywords">abstract boolean break byte case catch char class const continue debugger default delete do double else enum exportextends final finally float for function goto if implements import in instanceof int interface long native new packageprivate protected public return short static super switch synchronized this throw throws transient try typeof var voidvolatile while with true false prototype </keywords>
+
+<keywords name="VBScript keywords">addhandler addressof andalso alias and ansi as assembly attribute auto begin boolean byref byte byval call case catchcbool cbyte cchar cdate cdec cdbl char cint class clng cobj compare const continue cshort csng cstr ctype currency datedecimal declare default delegate dim do double each else elseif end enum erase error event exit explicit false finallyfor friend function get gettype global gosub goto handles if implement implements imports in inherits integer interfaceis let lib like load long loop lset me mid mod module mustinherit mustoverride mybase myclass namespace new next notnothing notinheritable notoverridable object on option optional or orelse overloads overridable overrides paramarraypreserve private property protected public raiseevent readonly redim rem removehandler rset resume return select setshadows shared short single static step stop string structure sub synclock then throw to true try type typeof unloadunicode until variant wend when while with withevents writeonly xor </keywords>
+
+<keywords name="Python keywords">and as assert break class continue def del elif else except exec finally for from global if import in is lambda Nonenot or pass print raise return triple try while with yield </keywords>
+
+<keywords name="PHP keywords">and or xor __file__ __line__ array as break case cfunction class const continue declare default die do echo else elseifempty enddeclare endfor endforeach endif endswitch endwhile eval exit extends for foreach function global if includeinclude_once isset list new old_function print require require_once return static switch unset use var while __function____class__ php_version php_os default_include_path pear_install_dir pear_extension_dir php_extension_dir php_bindir php_libdirphp_datadir php_sysconfdir php_localstatedir php_config_file_path php_output_handler_start php_output_handler_contphp_output_handler_end e_error e_warning e_parse e_notice e_core_error e_core_warning e_compile_error e_compile_warninge_user_error e_user_warning e_user_notice e_all true false bool boolean int integer float double real string array objectresource null class extends parent stdclass directory __sleep __wakeup interface implements abstract public protected private </keywords>
+
+<style fore-color-light="#000000" id="0"/>
+
+<!-- SCE_HPHP_DEFAULT -->
+
+
+<style fore-color-light="#F77B09" id="124"/>
+
+<!-- SCE_HPHP_COMMENT -->
+
+
+<style fore-color-light="#F77B09" id="125"/>
+
+<!-- SCE_HPHP_COMMENTLINE -->
+
+
+<style fore-color-light="#C00000" id="121" bold="Yes"/>
+
+<!-- SCE_HPHP_WORD -->
+
+
+<!-- Various other styles -->
+
+
+<style id="34" back-color-dark="#ffee55" back-color-light="#ffee55"/>
+
+<!-- STYLE_BRACELIGHT -->
+
+
+<style id="35" back-color-dark="#ff7855" back-color-light="#ff7855"/>
+
+<!-- STYLE_BRACELBAD -->
+
+
+</language>
+
+
+-<language name="SCLEX_CPP">
+
+<property name="styling.within.preprocessor" value="0"/>
+
+<property name="lexer.cpp.allow.dollars" value="1"/>
+
+<property name="lexer.cpp.track.preprocessor" value="1"/>
+
+<property name="lexer.cpp.update.preprocessor" value="1"/>
+
+<property name="lexer.cpp.triplequoted.strings" value="1"/>
+
+<property name="lexer.cpp.hashquoted.strings" value="1"/>
+
+<property name="fold.cpp.syntax.based" value="1"/>
+
+<property name="fold.comment" value="1"/>
+
+<property name="fold.cpp.comment.multiline" value="1"/>
+
+<property name="fold.cpp.comment.explicit" value="1"/>
+
+<property name="fold.preprocessor" value="1"/>
+
+<property name="fold.at.else" value="1"/>
+
+<!-- Editor settings -->
+
+
+<setting name="usetabs" value="0"/>
+
+<setting name="tabwidth" value="2"/>
+
+<setting name="indentation" value="2"/>
+
+<keywords name="Primary keywords and identifiers">alignas alignof and and_eq asm auto bitand bitor bool break case catch char char16_t char32_t class compl const constexprconst_cast continue decltype default delete do double dynamic_cast else enum explicit export extern false float for friendgoto if inline int long mutable namespace new noexcept not not_eq nullptr operator or or_eq private protected public registerreinterpret_cast return short signed sizeof static static_assert static_cast struct switch template this thread_local throwtrue try typedef typeid typename union unsigned using virtual void volatile wchar_t while xor xor_eq </keywords>
+
+<keywords name="Secondary keywords and identifiers"> </keywords>
+
+<keywords name="Documentation comment keywords"> </keywords>
+
+<keywords name="Global classes and typedefs"> </keywords>
+
+<keywords name="Preprocessor definitions">if elseif else endif defined define import include </keywords>
+
+<style fore-color-light="#000000" id="0"/>
+
+<!-- SCE_C_DEFAULT -->
+
+
+<style fore-color-light="#097BF7" id="1"/>
+
+<!-- SCE_C_COMMENT -->
+
+
+<style fore-color-light="#097BF7" id="2"/>
+
+<!-- SCE_C_COMMENTLINE -->
+
+
+<style fore-color-light="#097BF7" id="3"/>
+
+<!-- SCE_C_COMMENTDOC -->
+
+
+<style fore-color-light="#FF0000" id="4"/>
+
+<!-- SCE_C_NUMBER -->
+
+
+<style fore-color-light="#000000" id="5" bold="Yes"/>
+
+<!-- SCE_C_WORD -->
+
+
+<style fore-color-light="#3EAAFF" id="6"/>
+
+<!-- SCE_C_STRING -->
+
+
+<style fore-color-light="#3EAAFF" id="7"/>
+
+<!-- SCE_C_CHARACTER -->
+
+
+<style fore-color-light="#3EAAFF" id="8"/>
+
+<!-- SCE_C_UUID -->
+
+
+<style fore-color-light="#000000" id="9"/>
+
+<!-- SCE_C_PREPROCESSOR -->
+
+
+<style fore-color-light="#000000" id="10"/>
+
+<!-- SCE_C_OPERATOR -->
+
+
+<style fore-color-light="#000000" id="11"/>
+
+<!-- SCE_C_IDENTIFIER -->
+
+
+<style fore-color-light="#000000" id="12"/>
+
+<!-- SCE_C_STRINGEOL -->
+
+
+<style fore-color-light="#000000" id="13"/>
+
+<!-- SCE_C_VERBATIM -->
+
+
+<style fore-color-light="#000000" id="14"/>
+
+<!-- SCE_C_REGEX -->
+
+
+<style fore-color-light="#097BF7" id="15"/>
+
+<!-- SCE_C_COMMENTLINEDOC -->
+
+
+<style fore-color-light="#000000" id="16" bold="Yes"/>
+
+<!-- SCE_C_WORD2 -->
+
+
+<style fore-color-light="#000000" id="17"/>
+
+<!-- SCE_C_COMMENTDOCKEYWORD -->
+
+
+<style fore-color-light="#000000" id="18"/>
+
+<!-- SCE_C_COMMENTDOCKEYWORDERROR -->
+
+
+<style fore-color-light="#000000" id="19" bold="Yes"/>
+
+<!-- SCE_C_GLOBALCLASS -->
+
+
+<style fore-color-light="#3EAAFF" id="20"/>
+
+<!-- SCE_C_STRINGRAW -->
+
+
+<style fore-color-light="#000000" id="21"/>
+
+<!-- SCE_C_TRIPLEVERBATIM -->
+
+
+<style fore-color-light="#000000" id="22"/>
+
+<!-- SCE_C_HASHQUOTEDSTRING -->
+
+
+<style fore-color-light="#000000" id="23"/>
+
+<!-- SCE_C_PREPROCESSORCOMMENT -->
+
+
+<style fore-color-light="#000000" id="24"/>
+
+<!-- SCE_C_PREPROCESSORCOMMENTDOC -->
+
+
+<!-- Various other styles -->
+
+
+<style id="34" back-color-dark="#ffee55" back-color-light="#ffee55"/>
+
+<!-- STYLE_BRACELIGHT -->
+
+
+<style id="35" back-color-dark="#ff7855" back-color-light="#ff7855"/>
+
+<!-- STYLE_BRACELBAD -->
+
+
+</language>
+
+
+-<language name="SCLEX_CPP_JS">
+
+<!-- Editor settings -->
+
+
+<property name="fold" value="1"/>
+
+<property name="fold.compact" value="0"/>
+
+<property name="fold.comment" value="1"/>
+
+<property name="fold.at.else" value="1"/>
+
+<setting name="usetabs" value="0"/>
+
+<setting name="tabwidth" value="2"/>
+
+<setting name="indentation" value="2"/>
+
+
+-<keywords name="Primary keywords and identifiers">
+
+<!-- SCE_C_WORD -->
+
+abstract argumentsboolean break bytecase catch char class const continuedebugger default delete do doubleelse enum eval export extendsfalse final finally float for functiongotoif implements import in instanceof int interfacelet longnative new nullpackage private protected publicreturnshort static super switch synchronizedthis throw throws transient true try typeofvar void volatilewhile withyield 
+</keywords>
+
+
+-<keywords name="Secondary keywords and identifiers">
+
+<!-- SCE_C_WORD2 -->
+
+add affectedRows all arrayAppend arrayDelete arrayInsert AS ASCbind bufferchange close commit collections columnMetadata create createCollection createIndex createSchemadefaultSchema delete DESC drop dropIndex dropSchemaexecute executeSql executionTime existInDatabasefield fields find flushgetAffectedRows getCollection getCollections getCollectionAsTable getCollectionNames getColumnMetadata getDefaultSchemagetError getErrorCode getExecutionTime getHasData getInfo getLastInsertId getName getNodeSession getSchema getSchemasgetSession getTable getTableNames getTables getUri getView getViewNames getViews getWarnings groupByhaving hasDataIndexUnique info insertlastInsertId limitmerge modifyname next nextDataSet nextResultSetorderBy offsetremove rewind rollbackschema schemas select session set setDefaultSchema setFetchWarnings skip sort sql startTransactiontablesunset update urivalues viewswarnings where 
+</keywords>
+
+<keywords name="Documentation comment keywords"> </keywords>
+
+
+-<keywords name="Global classes and typedefs">
+
+<!-- SCE_C_GLOBALCLASS -->
+
+mysqlx 
+</keywords>
+
+<keywords name="Preprocessor definitions"> </keywords>
+
+<style fore-color-light="#000000" id="0"/>
+
+<!-- SCE_C_DEFAULT -->
+
+
+<style fore-color-light="#3e7bd1" id="1"/>
+
+<!-- SCE_C_COMMENT -->
+
+
+<style fore-color-light="#3e7bd1" id="2"/>
+
+<!-- SCE_C_COMMENTLINE -->
+
+
+<style fore-color-light="#3e7bd1" id="3"/>
+
+<!-- SCE_C_COMMENTDOC -->
+
+
+<style fore-color-light="#a35f00" id="4"/>
+
+<!-- SCE_C_NUMBER -->
+
+
+<style fore-color-light="#000000" id="5" bold="Yes"/>
+
+<!-- SCE_C_WORD -->
+
+
+<style fore-color-light="#a35f00" id="6"/>
+
+<!-- SCE_C_STRING -->
+
+
+<style fore-color-light="#a35f00" id="7"/>
+
+<!-- SCE_C_CHARACTER -->
+
+
+<style fore-color-light="#a35f00" id="8"/>
+
+<!-- SCE_C_UUID -->
+
+
+<style fore-color-light="#000000" id="9"/>
+
+<!-- SCE_C_PREPROCESSOR -->
+
+
+<style fore-color-light="#000000" id="10"/>
+
+<!-- SCE_C_OPERATOR -->
+
+
+<style fore-color-light="#000000" id="11"/>
+
+<!-- SCE_C_IDENTIFIER -->
+
+
+<style fore-color-light="#000000" id="12"/>
+
+<!-- SCE_C_STRINGEOL -->
+
+
+<style fore-color-light="#000000" id="13"/>
+
+<!-- SCE_C_VERBATIM -->
+
+
+<style fore-color-light="#000000" id="14"/>
+
+<!-- SCE_C_REGEX -->
+
+
+<style fore-color-light="#3e7bd1" id="15"/>
+
+<!-- SCE_C_COMMENTLINEDOC -->
+
+
+<style fore-color-light="#6b298b" id="16" bold="Yes"/>
+
+<!-- SCE_C_WORD2 -->
+
+
+<style fore-color-light="#000000" id="17"/>
+
+<!-- SCE_C_COMMENTDOCKEYWORD -->
+
+
+<style fore-color-light="#000000" id="18"/>
+
+<!-- SCE_C_COMMENTDOCKEYWORDERROR -->
+
+
+<style fore-color-light="#A0A0A0" id="19" bold="Yes"/>
+
+<!-- SCE_C_GLOBALCLASS -->
+
+
+<style fore-color-light="#3EAAFF" id="20"/>
+
+<!-- SCE_C_STRINGRAW -->
+
+
+<style fore-color-light="#000000" id="21"/>
+
+<!-- SCE_C_TRIPLEVERBATIM -->
+
+
+<style fore-color-light="#000000" id="22"/>
+
+<!-- SCE_C_HASHQUOTEDSTRING -->
+
+
+<style fore-color-light="#000000" id="23"/>
+
+<!-- SCE_C_PREPROCESSORCOMMENT -->
+
+
+<style fore-color-light="#000000" id="24"/>
+
+<!-- SCE_C_PREPROCESSORCOMMENTDOC -->
+
+
+<!-- Various other styles -->
+
+
+<style id="34" back-color-dark="#ffee55" back-color-light="#ffee55"/>
+
+<!-- STYLE_BRACELIGHT -->
+
+
+<style id="35" back-color-dark="#ff7855" back-color-light="#ff7855"/>
+
+<!-- STYLE_BRACELBAD -->
+
+
+</language>
+
+
+-<language name="SCLEX_CPP_JSON">
+
+<!-- Editor settings -->
+
+
+<setting name="usetabs" value="1"/>
+
+<setting name="tabwidth" value="4"/>
+
+<setting name="indentation" value="4"/>
+
+<keywords name="Primary keywords and identifiers"> </keywords>
+
+<keywords name="Secondary keywords and identifiers"> </keywords>
+
+<keywords name="Documentation comment keywords"> </keywords>
+
+<keywords name="Global classes and typedefs"> </keywords>
+
+<keywords name="Preprocessor definitions"> </keywords>
+
+<style fore-color-dark="#ff3e5a" fore-color-light="#ff3e5a" id="4"/>
+
+<!-- SCE_C_NUMBER -->
+
+
+<style fore-color-dark="#ff9933" fore-color-light="#ff9933" id="6"/>
+
+<!-- SCE_C_STRING -->
+
+
+<style fore-color-dark="#FFFFFF" fore-color-light="#000000" id="10" bold="YES"/>
+
+<!-- SCE_C_OPERATOR -->
+
+
+<style fore-color-dark="#3133ff" fore-color-light="#3133ff" id="11"/>
+
+<!-- SCE_C_IDENTIFIER -->
+
+
+<style fore-color-dark="#ff5c33" fore-color-light="#ff5c33" id="20"/>
+
+<!-- SCE_C_STRINGRAW -->
+
+
+<!-- Various other styles -->
+
+
+<style id="34" back-color-dark="#ffee55" back-color-light="#ffee55"/>
+
+<!-- STYLE_BRACELIGHT -->
+
+
+<style id="35" back-color-dark="#ff7855" back-color-light="#ff7855"/>
+
+<!-- STYLE_BRACELBAD -->
+
+
+</language>
+
+</languages>

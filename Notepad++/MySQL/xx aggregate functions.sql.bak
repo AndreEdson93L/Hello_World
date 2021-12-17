@@ -1,0 +1,70 @@
+-- query1
+-- MAX()
+-- MIN()
+-- AVG()
+-- SUM()
+-- COUNT()
+
+-- query2
+use sql_invoicing;
+
+select max(invoice_total) as highest,
+	   min(invoice_total) as lowest,
+       avg(invoice_total) as average,
+       sum(invoice_total) as total,
+       count(invoice_total) as number_of_invoices,
+       count(payment_date) as count_of_payments,
+       count(*) as total_records
+from invoices
+
+-- query3
+use sql_invoicing;
+
+select max(invoice_total) as highest,
+	   min(invoice_total) as lowest,
+       avg(invoice_total) as average,
+       sum(invoice_total * 1.1) as total,
+       count(*) as total_records
+from invoices
+where invoice_date > '2019-07-01'
+
+-- query4
+use sql_invoicing;
+
+select max(invoice_total) as highest,
+	   min(invoice_total) as lowest,
+       avg(invoice_total) as average,
+       sum(invoice_total * 1.1) as total,
+       count(*) as total_records
+from invoices
+where invoice_date > '2019-07-01'
+
+-- query5
+use sql_invoicing;
+
+select max(invoice_total) as highest,
+	   min(invoice_total) as lowest,
+       avg(invoice_total) as average,
+       sum(invoice_total * 1.1) as total,
+       count(distinct client_id) as total_records
+from invoices
+where invoice_date > '2019-07-01'
+
+-- query6
+use sql_invoicing;
+
+select max(invoice_total) as highest,
+	   min(invoice_total) as lowest,
+       avg(invoice_total) as average,
+       sum(invoice_total * 1.1) as total,
+       count(client_id) as total_records
+from invoices
+where invoice_date > '2019-07-01'
+
+-- query7
+
+-- query8
+
+-- query9
+
+-- query10

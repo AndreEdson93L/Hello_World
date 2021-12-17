@@ -1,0 +1,23 @@
+<!-- ListBox è flessibile e si adatta -->
+
+<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" Margin="2" Grid.ColumnSpan="2"
+               Background="#000080" Content="Elenco Clienti" Foreground="#ffffff"/>
+        <ListBox Grid.Column="0" Grid.Row="1" Margin="2"/>
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="2" Background="#4d4dff">
+            <Button>Nuovo</Button>
+            <Button>Dettaglio</Button>
+            <Button>Modifica</Button>
+        </StackPanel>
+    </Grid>
+
+</Window>

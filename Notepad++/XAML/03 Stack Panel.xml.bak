@@ -1,0 +1,10 @@
+<--! E' attivo di default lo streching degli elementi al suo interno -->
+<StackPanel Orientation="Horizontal/Vertical" Orizontal/VerticalAlignment="Bottom/Center/Strech/Top">
+	<Button Height="23" Width="60">
+	<Button Height="23" Width="60">
+	<Button Height="23" Width="60">
+	<Button Height="23" Width="60">
+	<Button Height="23" Width="60">
+	<Button Height="23" Width="60">
+	<Button Height="23" Width="60">
+</StackPanel>

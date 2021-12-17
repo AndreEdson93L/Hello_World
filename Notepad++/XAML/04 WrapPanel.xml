@@ -1,0 +1,9 @@
+<!-- Forma una sola fila orizzonatale e si comporta come un editor di testo -->
+
+<WrapPanel Background="Beige" Height="300">
+		<Button Height="23" Width="Auto">prendo spazio quanto ne ho bisogno</Button>
+        <Button Height="23" Width="96"></Button>
+        <Button Height="23" Width="2.54cm"></Button>
+        <Button Height="23" Width="1in"></Button>
+        <Button Height="23" Width="72pt"></Button>
+</WrapPanel>

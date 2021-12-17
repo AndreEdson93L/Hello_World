@@ -1,0 +1,14 @@
+<!-- E' letteralmente una tela -->
+<!-- Posizone scelte in modo assoluto -->
+
+<Canvas>
+	<Button Canvas.Left="10">Top left</Button>
+	<Button Canvas.Right="10">Top Right</Button>
+	<Button Canvas.Left="10" Canvas.Bottom="10">Bottom left</Button>
+	<Button Canvas.Left="10" Canvas.Bottom="10">Bottom right</Button>
+</Canvas>
+
+<StackPanel Background="#992600">
+        <Canvas Height="100" Background="#b3b300" Margin="50" Visibility="Visible"/>
+        <Canvas Height="100" Background="#0066cc"/>
+</StackPanel>
