@@ -1,0 +1,12 @@
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\bin\Debug\net5.0\AbstractClassesAndMembers.deps.json
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\bin\Debug\net5.0\AbstractClassesAndMembers.dll
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\bin\Debug\net5.0\ref\AbstractClassesAndMembers.dll
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\bin\Debug\net5.0\AbstractClassesAndMembers.pdb
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.csproj.AssemblyReference.cache
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.GeneratedMSBuildEditorConfig.editorconfig
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.AssemblyInfoInputs.cache
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.AssemblyInfo.cs
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.csproj.CoreCompileInputs.cache
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.dll
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\ref\AbstractClassesAndMembers.dll
+Z:\percorso ERP developer\alunni\Lorenzoni Andrea Edson\PrimeLezioni\AbstractClassesAndMembers\obj\Debug\net5.0\AbstractClassesAndMembers.pdb
