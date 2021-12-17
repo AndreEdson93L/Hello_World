@@ -1,0 +1,13 @@
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\bin\Debug\InsertUpdateDeleteDemo.exe.config
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\bin\Debug\InsertUpdateDeleteDemo.exe
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\bin\Debug\InsertUpdateDeleteDemo.pdb
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\bin\Debug\WindowsFormApplication.exe
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\bin\Debug\WindowsFormApplication.pdb
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\bin\Debug\WindowsFormApplication.exe.config
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.sln.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.frmMain.resources
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.Properties.Resources.resources
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.sln.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.sln.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.exe
+C:\Users\Computer\Desktop\L.D.S.Andrea_Edson\InsertUpdateDeleteDemo\obj\Debug\InsertUpdateDeleteDemo.pdb
